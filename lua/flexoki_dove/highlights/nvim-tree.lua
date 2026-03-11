@@ -18,7 +18,7 @@ M.groups = function()
 		["NvimTreeOpenedFolderName"] = { fg = c['bl'], bg = 'NONE' },
 		["NvimTreeEmptyFolderName"]  = { fg = c['bl'], bg = 'NONE', italic = true, },
 
-		["NvimTreeVertSplit"]        = { fg = c.alt_bg,           bg = c.alt_bg },
+		["NvimTreeVertSplit"]        = { fg = c['bg-2'],         bg = c['bg-2'] },
 		["NvimTreeImageFile"]        = { fg = c.light_gray,       bg = 'NONE' },
 		["NvimTreeSpecialFile"]      = { fg = c['or'],           bg = 'NONE' },
 		["NvimTreeEndOfBuffer"]      = { link = 'NvimTreeNormal' },
