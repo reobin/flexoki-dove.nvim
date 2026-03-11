@@ -1,6 +1,6 @@
 # `flexoki-dove.nvim`
 
-`flexoki-dove.nvim` is a neutral-gray, light-only fork of [`kepano/flexoki-neovim`](https://github.com/kepano/flexoki-neovim), a Neovim adaptation of [Flexoki](https://stephango.com/flexoki) by Steph Ango.
+`flexoki-dove.nvim` is a neutral-gray, light-only fork of [`kepano/flexoki-neovim`](https://github.com/kepano/flexoki-neovim), a neovim adaptation of [Flexoki](https://stephango.com/flexoki) by Steph Ango.
 
 ![flexoki dove for neovim](screenshots/flexoki-dove.png)
 
