@@ -4,20 +4,20 @@ local M = {}
 
 local base_colors = {
 	['flexoki-black']       = '#100F0F',
-	['flexoki-paper']       = '#FFFCF0',
+	['flexoki-paper']       = '#F4F5F7',
 
 	['flexoki-950']         = '#1C1B1A',
 	['flexoki-900']         = '#282726',
 	['flexoki-850']         = '#343331',
 	['flexoki-800']         = '#403E3C',
 	['flexoki-700']         = '#575653',
-	['flexoki-600']         = '#6F6E69',
+	['flexoki-600']         = '#6B6E73',
 	['flexoki-500']         = '#878580',
-	['flexoki-300']         = '#B7B5AC',
-	['flexoki-200']         = '#CECDC3',
-	['flexoki-150']         = '#DAD8CE',
-	['flexoki-100']         = '#E6E4D9',
-	['flexoki-50']          = '#F2F0E5',
+	['flexoki-300']         = '#B0B5BD',
+	['flexoki-200']         = '#C9CED5',
+	['flexoki-150']         = '#D8DCE2',
+	['flexoki-100']         = '#E3E7EC',
+	['flexoki-50']          = '#EEF1F5',
 
 	['flexoki-red-600']     = '#AF3029',
 	['flexoki-red-400']     = '#D14D41',

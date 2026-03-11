@@ -39,9 +39,9 @@ M.groups = function()
 		["NonText"]     = { fg = c['tx-3'], bg = 'NONE' },
 		["EndOfBuffer"] = { fg = 'NONE', bg    = 'NONE' },
 
-		["Search"]     = { fg = c['tx'], bg = c['ye'] },
-		["IncSearch"]  = { fg = c['tx'], bg = c['ye'], blend = 50 },
-		["CurSearch"]  = { fg = c['tx'], bg = c['ye-2'], blend = 50 },
+		["Search"]     = { fg = c['tx'], bg = c['bl-2'] },
+		["IncSearch"]  = { fg = c['tx'], bg = c['bl-2'], blend = 20 },
+		["CurSearch"]  = { fg = c['bg'], bg = c['bl'] },
 		["Substitute"] = { fg = c['tx'],  bg = c['gr'], blend = 50 },
 
 		["DiffAdd"]    = { fg = c['bg'],   bg = c['gr'] },
