@@ -1,4 +1,4 @@
-local config = require('flexoki.config')
+local config = require('flexoki_dove.config')
 
 local M = {}
 
@@ -13,9 +13,9 @@ M.colorscheme = function(opts)
 		vim.cmd.hi('clear')
 	end
 
-	vim.g.colors_name = 'flexoki'
+	vim.g.colors_name = 'flexoki-dove'
 
-	require('flexoki.theme').set_highlights(config.options)
+	require('flexoki_dove.theme').set_highlights(config.options)
 end
 
 ---Set up the Flexoki colorscheme

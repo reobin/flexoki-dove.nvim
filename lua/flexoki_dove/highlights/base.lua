@@ -1,5 +1,5 @@
-local palette = require('flexoki.palette')
-local config = require('flexoki.config')
+local palette = require('flexoki_dove.palette')
+local config = require('flexoki_dove.config')
 
 local M = {}
 

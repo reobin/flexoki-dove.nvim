@@ -1,4 +1,4 @@
-# flexoki-neovim
+# flexoki-dove
 Neovim adaptation of [Flexoki](https://stephango.com/flexoki) by Steph Ango
 
 Currently still **work in progress** and missing support for even the most
@@ -16,7 +16,7 @@ To install simply add via your plugin manager and call the theme
 
 ```lua
 require("lazy").setup({
-  { 'kepano/flexoki-neovim', name = 'flexoki' }
+  { 'your-user/flexoki-dove', name = 'flexoki-dove' }
 })
 ```
 
@@ -24,7 +24,7 @@ require("lazy").setup({
 
 ```lua
 require('packer').startup(function(use)
-  use({ 'kepano/flexoki-neovim', as = 'flexoki' })
+  use({ 'your-user/flexoki-dove', as = 'flexoki-dove' })
 end)
 ```
 
@@ -32,7 +32,7 @@ end)
 
 ```lua
 require('paq')({
-  { 'kepano/flexoki-neovim', as = 'flexoki' }
+  { 'your-user/flexoki-dove', as = 'flexoki-dove' }
 })
 ```
 
@@ -42,5 +42,5 @@ require('paq')({
 
 ```lua
 -- Set colorscheme after options
-vim.cmd('colorscheme flexoki-light')
+vim.cmd('colorscheme flexoki-dove')
 ```

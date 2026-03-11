@@ -1,5 +1,5 @@
-local highlights = require('flexoki.highlights')
-local utils = require('flexoki.util')
+local highlights = require('flexoki_dove.highlights')
+local utils = require('flexoki_dove.util')
 
 local M = {}
 

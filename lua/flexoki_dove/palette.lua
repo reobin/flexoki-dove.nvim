@@ -1,4 +1,4 @@
-local config = require('flexoki.config')
+local config = require('flexoki_dove.config')
 
 local M = {}
 
