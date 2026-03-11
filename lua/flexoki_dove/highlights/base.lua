@@ -109,10 +109,10 @@ M.groups = function()
 		["TabLineSel"]  = { fg = c['tx'],   bg = c['ui-3'] },
 		["TabLineFill"] = { fg = c['line'], bg = c['ui']   },
 
-		["StatusLine"]       = { fg = c['tx'],   bg = c['ui-3'] },
+		["StatusLine"]       = { fg = c['tx'],   bg = c['ui-2'] },
 		["StatusLineNC"]     = { fg = c['tx-2'], bg = c['ui']   },
-		["StatusLineTerm"]   = { fg = c['tx-2'], bg = c['ui-3'] },
-		["StatusLineTermNC"] = { fg = c['tx-2'], bg = c['ui-3'] },
+		["StatusLineTerm"]   = { fg = c['tx-2'], bg = c['ui-2'] },
+		["StatusLineTermNC"] = { fg = c['tx-2'], bg = c['ui-2'] },
 
 		["WinBar"]   = { fg = c['tx'],   bg = c['ui-3'] },
 		["WinBarNC"] = { fg = c['tx-2'], bg = c['ui']   },
