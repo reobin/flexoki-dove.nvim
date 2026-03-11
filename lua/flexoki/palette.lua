@@ -49,34 +49,6 @@ local base_colors = {
 }
 
 local variants = {
-	dark = {
-		_name      = 'dark',
-		background = 'dark',
-		['bg']     = base_colors['flexoki-black'],
-		['bg-2']   = base_colors['flexoki-950'],
-		['ui']     = base_colors['flexoki-900'],
-		['ui-2']   = base_colors['flexoki-850'],
-		['ui-3']   = base_colors['flexoki-800'],
-		['tx-3']   = base_colors['flexoki-700'],
-		['tx-2']   = base_colors['flexoki-500'],
-		['tx']     = base_colors['flexoki-200'],
-		['re']     = base_colors['flexoki-red-400'],
-		['re-2']   = base_colors['flexoki-red-600'],
-		['or']     = base_colors['flexoki-orange-400'],
-		['or-2']   = base_colors['flexoki-orange-600'],
-		['ye']     = base_colors['flexoki-yellow-400'],
-		['ye-2']   = base_colors['flexoki-yellow-600'],
-		['gr']     = base_colors['flexoki-green-400'],
-		['gr-2']   = base_colors['flexoki-green-600'],
-		['cy']     = base_colors['flexoki-cyan-400'],
-		['cy-2']   = base_colors['flexoki-cyan-600'],
-		['bl']     = base_colors['flexoki-blue-400'],
-		['bl-2']   = base_colors['flexoki-blue-600'],
-		['pu']     = base_colors['flexoki-purple-400'],
-		['pu-2']   = base_colors['flexoki-purple-600'],
-		['ma']     = base_colors['flexoki-magenta-400'],
-		['ma-2']   = base_colors['flexoki-magenta-600'],
-	},
 	light = {
 		_name      = 'light',
 		background = 'light',
@@ -108,18 +80,8 @@ local variants = {
 }
 
 M.palette = function ()
-	local variant = {}
-
-	if config.options.variant == 'auto' then
-		if vim.o.background == 'dark' then
-			variant = variants[config.options.dark_variant]
-		else
-			variant = variants[config.options.light_variant]
-		end
-	else
-		variant = variants[config.options.variant]
-		vim.o.background = variant.background
-	end
+	local variant = variants[config.options.variant] or variants.light
+	vim.o.background = variant.background
 
 	return variant
 end
